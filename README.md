@@ -1,1 +1,7 @@
-# Horiseon-Code-Refactor
+# Code Refactor 
+Client requested the code be refactored. I made changes to html to give the web page it's company name for the browser title, as well as refactored the header to navigate to a section that wasn't already doing so, by adding an id.
+In css, I consolidated and deleted redundant lines that shared the same styling.
+<<<<<<< HEAD
+I changed the styling to include padding: 4px.
+=======
+>>>>>>> d8631c0d0c415a2488f29a7e3261d08a066a19f1
