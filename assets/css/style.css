@@ -1,3 +1,4 @@
+/* Universal selectors */
 * {
     box-sizing: border-box;
     padding: 4px;
@@ -5,10 +6,12 @@
     justify-content: space-evenly;
 }
 
+/* Page background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,12 +20,14 @@ body {
     text-decoration: none;
 }
 
+/* Header 1 styling */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     
 }
 
+/* HEX for letters "seo" in Horiseon*/
 .seo {
     color: #d9dcd6
 }
@@ -36,6 +41,7 @@ body {
 
 }
 
+/* Nav bar list styling*/
 .header div ul {
     list-style-type: none;
 }
@@ -45,15 +51,18 @@ body {
     margin-left: 25px;
 }
 
+/* Nav bar text color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph font size*/
 p {
     font-size: 16px;
 }
 
+/* Hero (large background image at top) styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,12 +71,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+ 
+/* Position Search Engine Optimization and Social Media Marketing to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Position Online Reputation Management to the right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -79,8 +90,7 @@ p {
     margin-left: 20px;
 }
 
-/* consolidated the color and margin-bottom in .benefits */
-
+/* Lead generation, brand awareness, cost management div class styling */
 .benefits {
     margin-right: 20px;
     margin-bottom: 32px;
@@ -94,7 +104,7 @@ p {
     color: #ffffff
 }
 
-/* consolidated benefit headers to just h3 and added margin-top: 30px */
+/* Heading 3 styling */
 h3 {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -105,8 +115,9 @@ h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-} /* consolidated the img classes */
+} 
 
+/* Styling for Search Img Optimization, Online Rep Mngmt, Soc Media mktg */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,17 +125,18 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-} /*consolidated these classes */
+} 
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
-} /* consolidated these img lines */
+} 
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-} /* consolidated these h2s */
+} 
 
+/* Footer styling */
 .footer {
     padding: 30px;
     clear: both;
